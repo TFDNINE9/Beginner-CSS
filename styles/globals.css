@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+@font-face {
+  font-family: "Phetsarath_OT";
+  font-weight: normal;
+  font-style: normal;
+  src: url(/fonts/phetsarath_ot.eot);
+  src: local("Phetsarath_OT"), url(/fonts/phetsarath_ot.woff) format("woff"),
+    url(/fonts/phetsarath_ot.woff2) format("woff2"),
+    url(/fonts/phetsarath_ot.ttf) format("truetype"),
+    url(/fonts/phetsarath_ot.svg) format("svg");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  background-image:url("/images/WhatsApp Image 2022-05-01 at 12.40.17.jpeg");
+  
+}
